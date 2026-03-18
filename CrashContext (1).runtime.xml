@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>5254898147C449E1D5C010BFA33AA81C</ExecutionGuid>
+<CrashGUID>UECC-Windows-1AF52A0748C157F17ABC5787365E11E9_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_STACK_OVERFLOW</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<AttendedStatus>Attended</AttendedStatus>
+<ProcessId>6768</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>true</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-ReadyOrNot</GameName>
+<ExecutableName>ReadyOrNotSteam-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.3.2-0+Unknown</EngineVersion>
+<EngineCompatibleVersion>5.3.2-0+Unknown</EngineCompatibleVersion>
+<CommandLine> -dx11</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>sr-Latn-RS</AppDefaultLocale>
+<BuildVersion>Unknown-CL-0</BuildVersion>
+<Symbols>Unknown-CL-0-Win64-Shipping</Symbols>
+<IsUERelease>true</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>D:/ReadyOrNotNew/ReadyOrNot/Binaries/Win64/</BaseDir>
+<RootDir>D:/ReadyOrNotNew/</RootDir>
+<MachineId>AE6093764A82FB26AD9FB8880C6A72C9</MachineId>
+<LoginId>ae6093764a82fb26ad9fb8880c6a72c9</LoginId>
+<EpicAccountId>798e951d9d474cf88ac383099c1ebf33</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1050</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8553893888</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>17105838080</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+ntdll                  0x00000000774a0000 + 58d63           
+ntdll                  0x00000000774a0000 + 311c0           
+ntdll                  0x00000000774a0000 + 30fc9           
+ntdll                  0x00000000774a0000 + 30d03           
+ntdll                  0x00000000774a0000 + 304a6           
+ntdll                  0x00000000774a0000 + 3014b           
+ntdll                  0x00000000774a0000 + 2eb2b           
+ntdll                  0x00000000774a0000 + 34df1           
+kexdll                 0x000007fecf010000 + 49d1            
+kexdll                 0x000007fecf010000 + 4a08            
+KERNELBASE             0x000007fefd450000 + 32a0            
+KERNELBASE             0x000007fefd450000 + 31d6            
+KERNELBASE             0x000007fefd450000 + b529            
+kxbase                 0x000007fece6c0000 + 1b71            
+EOSOVH-Win64-Shipping  0x000007feccbf0000 + 3d75d           
+kxuser                 0x000007fecd7e0000 + 115e            
+kxuser                 0x000007fecd7e0000 + 120e            
+kxuser                 0x000007fecd7e0000 + 1e76            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+kxuser                 0x000007fecd7e0000 + 1e93            
+</PCallStack>
+<PCallStackHash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + ca411c          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 63655be         
+VCRUNTIME140                    0x000007feb4fa0000 + e7bf            
+ntdll                           0x00000000774a0000 + 6bf7d           
+ntdll                           0x00000000774a0000 + 4043a           
+ntdll                           0x00000000774a0000 + 6b61e           
+ntdll                           0x00000000774a0000 + 58d63           
+ntdll                           0x00000000774a0000 + 311c0           
+ntdll                           0x00000000774a0000 + 30fc9           
+ntdll                           0x00000000774a0000 + 30d03           
+ntdll                           0x00000000774a0000 + 304a6           
+ntdll                           0x00000000774a0000 + 3014b           
+ntdll                           0x00000000774a0000 + 2eb2b           
+ntdll                           0x00000000774a0000 + 34df1           
+kexdll                          0x000007fecf010000 + 49d1            
+kexdll                          0x000007fecf010000 + 4a08            
+KERNELBASE                      0x000007fefd450000 + 32a0            
+KERNELBASE                      0x000007fefd450000 + 31d6            
+KERNELBASE                      0x000007fefd450000 + b529            
+kxbase                          0x000007fece6c0000 + 1b71            
+EOSOVH-Win64-Shipping           0x000007feccbf0000 + 3d75d           
+kxuser                          0x000007fecd7e0000 + 115e            
+kxuser                          0x000007fecd7e0000 + 120e            
+kxuser                          0x000007fecd7e0000 + 1e76            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+kxuser                          0x000007fecd7e0000 + 1e93            
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>9052</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6220</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3672</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9020</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9724</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8672</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5596</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10584</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9360</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1320</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10544</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9160</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8276</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4860</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6048</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2224</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11040</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7148</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4100</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1736</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5272</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8564</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11232</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5908</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9612</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 1a2c8c5         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7376</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b22370          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b239a6          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b0b840          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b888a4          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9688</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b22370          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b239a6          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b0b840          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b888a4          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4668</ThreadID>
+<ThreadName>Background Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b22370          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b239a6          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b0b840          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b888a4          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10976</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b886ae          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10856</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b886ae          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4024</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b08b4d          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b888a4          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7744</ThreadID>
+<ThreadName>Reserve Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b08b4d          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b888a4          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3308</ThreadID>
+<ThreadName>Reserve Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b08b4d          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b888a4          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8784</ThreadID>
+<ThreadName>Reserve Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 2a1392c         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9864</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 69bca           
+KERNELBASE                      0x000007fefd450000 + 1203            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 129880d         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10180</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + 379dde6         
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2400</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+kexdll                          0x000007fecf010000 + 6fb3            
+kxbase                          0x000007fece6c0000 + 2d3f            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + c2bfac          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b22871          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b226ac          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + c4ce76          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b888a4          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6168</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b886ae          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7312</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b886ae          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8208</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b886ae          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7012</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00000000774a0000 + 698ca           
+KERNELBASE                      0x000007fefd450000 + 10ac            
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cb0796          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + b886ae          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + caf107          
+ReadyOrNotSteam-Win64-Shipping  0x000000013f3a0000 + cac761          
+kernel32                        0x0000000077380000 + 1570d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7388</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>true</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>true</RHI.DriverDenylisted>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
